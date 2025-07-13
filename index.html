@@ -643,8 +643,8 @@
     background: #f5f6fa;
     border-radius: 40px;
     padding: 0; /* Reduced padding to maximize image space */
-    box-shadow: 
-        0 0 0 10px #1e272e,
+      box-shadow: 
+        0 0 0 8px #1e272e, /* Reduced from 10px to 6px for thinner border */
         0 30px 60px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     overflow: hidden; /* Ensure image doesn't overflow */
@@ -1266,7 +1266,9 @@
                .mobile-device-frame {
             width: 250px;
             height: 500px;
-            
+             box-shadow: 
+            0 0 0 6px #1e272e, /* Slightly thinner on medium screens */
+            0 20px 40px rgba(0, 0, 0, 0.2);
         }
         }
 
@@ -1323,6 +1325,7 @@
             width: 200px;
             height: 400px;
             padding: 1px;
+            
         }
         }
         @media (max-width: 400px) {
