@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Privacy Policy | HomeSphere Residencia</title>
+         <!-- Favicon links -->
+    <link rel="icon" href="./assets/logos.png" type="image/png">
+    <link rel="apple-touch-icon" href="./assets/logos.png">
+    <link rel="shortcut icon" href="./assets/logos.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+    <style>
+          :root {
+            --primary-color: #00a8ff;
+            --primary-dark: #0097e6;
+            --secondary-color: #f5f6fa;
+            --dark-bg: #1e272e;
+            --text-color: #2f3640;
+            --light-text: #7f8fa6;
+            --white: #ffffff;
+            --gradient: linear-gradient(135deg, #00a8ff 0%, #0097e6 100%);
+            --neon-glow: 0 0 10px rgba(0, 168, 255, 0.7);
+            --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+             --tech-gradient: linear-gradient(to right, #00a8ff, #00f2ff);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', 'Segoe UI', sans-serif;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        }
+
+        body {
+            color: var(--text-color);
+            line-height: 1.7;
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+
+      
+        .policy-container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+        
+        .policy-container h1 {
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            background: linear-gradient(to right, #00a8ff, #00d2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .policy-container h2 {
+            color: var(--primary-dark);
+            margin: 25px 0 15px;
+        }
+        
+        .policy-container p, .policy-container li {
+            color: var(--text-color);
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+        
+        .policy-container ul {
+            padding-left: 20px;
+        }
+        
+        .back-to-home {
+            display: inline-block;
+            margin-top: 30px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .back-to-home:hover {
+            text-decoration: underline;
+        }
+         footer {
+            background-color: var(--dark-bg);
+            color: var(--white);
+            padding: 80px 0 30px;
+            position: relative;
+        }
+
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 50px;
+            margin-bottom: 60px;
+            position: relative;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .footer-logo img {
+            height: 36px;
+            margin-right: 12px;
+            filter: drop-shadow(0 0 8px rgba(0, 168, 255, 0.6));
+        }
+
+        .footer-logo h2 {
+            font-size: 22px;
+            font-weight: 700;
+            background: linear-gradient(to right, #00a8ff, #00d2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+        }
+
+        .footer-about p {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 25px;
+            line-height: 1.7;
+        }
+        .footer-bottom a {
+    color: var(--primary-color); /* Uses your theme's primary blue */
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-bottom a:hover {
+    color: var(--primary-dark); /* Slightly darker blue on hover */
+    text-decoration: underline;
+}
+
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            color: var(--white);
+            font-size: 18px;
+            transition: var(--transition);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .social-links a:hover {
+            background: var(--gradient);
+            transform: translateY(-5px);
+            box-shadow: var(--neon-glow);
+            border-color: transparent;
+        }
+
+        .footer-links h3 {
+            font-size: 20px;
+            margin-bottom: 25px;
+            color: var(--white);
+            position: relative;
+            display: inline-block;
+        }
+
+        .footer-links h3::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--gradient);
+            border-radius: 3px;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 15px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-links a i {
+            margin-right: 10px;
+            font-size: 12px;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-color);
+            padding-left: 5px;
+        }
+
+        .footer-links a:hover i {
+            opacity: 1;
+        }
+
+        .footer-newsletter p {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 25px;
+            line-height: 1.7;
+        }
+
+       
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        @keyframes glow {
+            0% { box-shadow: 0 0 10px rgba(0, 168, 255, 0.3); }
+            100% { box-shadow: 0 0 20px rgba(0, 168, 255, 0.6); }
+        }
+
+        @keyframes pulse {
+            0% { transform: translate(0, 0); }
+            50% { transform: translate(50px, 50px); }
+            100% { transform: translate(0, 0); }
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .hero h1 {
+                font-size: 46px;
+            }
+            
+            .section-title h2 {
+                font-size: 38px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .platform-container {
+                flex-direction: column;
+            }
+            
+            .platform-image, .platform-content {
+                flex: none;
+                width: 100%;
+            }
+            
+            .timeline::before {
+                left: 40px;
+            }
+            
+            .timeline-item {
+                width: 100%;
+                padding-left: 80px;
+                padding-right: 0;
+            }
+            
+            .timeline-item:nth-child(even) {
+                left: 0;
+            }
+            
+            .timeline-dot {
+                left: 30px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu {
+                display: block;
+            }
+            
+            .nav-links {
+                position: fixed;
+                top: 0;
+                left: -100%;
+                width: 80%;
+                height: 100vh;
+                background-color: var(--dark-bg);
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                padding-left: 40px;
+                transition: var(--transition);
+                z-index: 1000;
+            }
+            
+            .nav-links.active {
+                left: 0;
+            }
+            
+            .nav-links li {
+                margin: 20px 0;
+            }
+            
+            .hero {
+                padding: 150px 0 80px;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .hero p {
+                font-size: 18px;
+            }
+            
+            .section-title h2 {
+                font-size: 32px;
+            }
+            
+            .dashboard-tabs {
+                flex-direction: column;
+                background: transparent;
+                gap: 10px;
+            }
+            
+            .dashboard-tab {
+                background: rgba(0, 168, 255, 0.1);
+            }
+               .mobile-device-frame {
+            width: 250px;
+            height: 500px;
+            padding: 8px;
+        }
+        }
+
+        @media (max-width: 576px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+            
+            .hero p {
+                font-size: 16px;
+            }
+            
+            .section-title h2 {
+                font-size: 28px;
+            }
+            
+            .feature-card, .tech-card {
+                padding: 30px 20px;
+            }
+            
+            .contact-form {
+                padding: 30px 20px;
+            }
+             .mobile-device-frame {
+            width: 200px;
+            height: 400px;
+            padding: 6px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="policy-container">
+            <h1>Privacy Policy</h1>
+            <p>Last Updated: July 2025</p>
+            
+            <h2>1. Information We Collect</h2>
+            <p>HomeSphere Residencia collects information to provide better services to all our users:</p>
+            <ul>
+                <li><strong>Personal Information:</strong> Name, email address, phone number, and property details when you register or use our services.</li>
+                <li><strong>Usage Data:</strong> Information about how you use our platform and services.</li>
+                <li><strong>Device Information:</strong> IP address, browser type, and operating system for security and analytics.</li>
+            </ul>
+            
+            <h2>2. How We Use Information</h2>
+            <p>We use the information we collect to:</p>
+            <ul>
+                <li>Provide, maintain, and improve our services</li>
+                <li>Develop new features and functionality</li>
+                <li>Communicate with you about your account and services</li>
+                <li>Ensure the security of our platform</li>
+                <li>Comply with legal obligations</li>
+            </ul>
+            
+            <h2>3. Data Sharing</h2>
+            <p>We do not sell your personal information. We may share information with:</p>
+            <ul>
+                <li>Service providers who assist in our operations</li>
+                <li>Legal authorities when required by law</li>
+                <li>Other residents in your housing society as part of normal operations</li>
+            </ul>
+            
+            <h2>4. Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access and update your personal information</li>
+                <li>Request deletion of your data</li>
+                <li>Opt-out of marketing communications</li>
+                <li>Withdraw consent where applicable</li>
+            </ul>
+            
+            <h2>5. Security Measures</h2>
+            <p>We implement industry-standard security measures including encryption, access controls, and regular security audits to protect your information.</p>
+            
+            <h2>6. Changes to This Policy</h2>
+            <p>We may update this policy periodically. We'll notify you of significant changes through our platform or via email.</p>
+            
+            <h2>7. Contact Us</h2>
+            <p>For questions about this privacy policy, please contact us at <a href="mailto:homesphereresidencia@gmail.com" style="color: var(--primary-color);">privacy@homesphere.com</a>.</p>
+            
+            <a href="HomeSphere.html" class="back-to-home">← Back to Home</a>
+        </div>
+    </main>
+
+
+   <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="./assets/logos.png" alt="HomeSphere Residencia Logo">
+                        <h2>HomeSphere Residencia</h2>
+                    </div>
+                    <p>Transforming housing society management through innovative technology solutions that connect administrators, residents, and staff on a single, seamless platform.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                      
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Solutions</h3>
+                    <ul>
+                        <li><a href="#">Smart Administration <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#">Resident Experience <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#">Staff Management <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#">Security Systems <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="#">Sustainability <i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                   <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">Admin Panel</a></li>
+                        <li><a href="#">Resident App</a></li>
+                        <li><a href="#">Staff App</a></li>
+                        <li><a href="#">Billing System</a></li>
+                        <li><a href="#">General Store</a></li>
+                        <li><a href="#">Event Manager</a></li>
+                    </ul>
+                </div>
+           <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#platform">Platform</a></li>
+                        <li><a href="#tech">Technology</a></li>
+                        <li><a href="#dashboard">Dashboard</a></li>
+                        <li><a href="#stats">Impact</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 HomeSphere Residencia. All Rights Reserved. |  <a href="/privacy-policy.html">Privacy Policy</a> | <a href="/terms-of-service.html" target="_blank">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
