@@ -575,10 +575,13 @@
             padding: 5px;
             position: relative;
             z-index: 1;
+              overflow-x: auto; /* Allow horizontal scrolling if needed */
+    white-space: nowrap; /* Prevent tabs from wrapping */
+    -webkit-overflow-scrolling: touch;
         }
 
         .dashboard-tab {
-            padding: 12px 30px;
+            padding: 12px 20px;
             cursor: pointer;
             font-weight: 600;
             color: var(--light-text);
@@ -586,6 +589,7 @@
             transition: var(--transition);
             position: relative;
             z-index: 1;
+            flex-shrink:0;
         }
 
         .dashboard-tab.active {
@@ -1254,15 +1258,14 @@
                 font-size: 32px;
             }
             
-            .dashboard-tabs {
-                flex-direction: column;
-                background: transparent;
-                gap: 10px;
-            }
-            
-            .dashboard-tab {
-                background: rgba(0, 168, 255, 0.1);
-            }
+          .dashboard-tabs {
+        padding: 3px; /* Reduce padding */
+    }
+    
+    .dashboard-tab {
+        padding: 10px 15px; /* Smaller padding on mobile */
+        font-size: 14px; /* Smaller font size */
+    }
                .mobile-device-frame {
             width: 250px;
             height: 500px;
@@ -1327,6 +1330,10 @@
             padding: 1px;
             
         }
+        .dashboard-tab {
+        padding: 8px 12px; /* Even smaller padding on very small screens */
+        font-size: 13px;
+    }
         }
         @media (max-width: 400px) {
     .hero-slides {
