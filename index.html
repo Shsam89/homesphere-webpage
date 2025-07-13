@@ -1160,11 +1160,12 @@
             .timeline-dot {
                 left: 30px !important;
             }
-               .hero-slides {
+      .hero-slides {
         height: 400px;
     }
     .hero-slide img {
-        max-width: 90%;
+        max-width: 90%; /* Larger than before */
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Slightly reduced shadow */
     }
         }
 
@@ -1237,11 +1238,12 @@
         font-size: 16px;
         margin-bottom: 30px;
     }
-              .hero-slides {
-        height: 350px;
+      .hero-slides {
+        height: 380px; /* Increased height */
     }
     .hero-slide img {
-        max-width: 95%;
+        max-width: 95%; /* Nearly full width */
+        border-radius: 15px; /* Slightly smaller radius */
     }
      .cta-button {
         padding: 12px 30px;
@@ -1296,12 +1298,14 @@
             .hero p {
                 font-size: 15px;
             }
-              .hero-slides {
-        height: 300px;
+     .hero-slides {
+        height: 320px; /* Better proportion for mobile */
     }
     .hero-slide img {
-        max-width: 100%;
-        border-radius: 10px;
+        max-width: 100%; /* Full width on smallest screens */
+        border-radius: 10px; /* Smaller radius for mobile */
+        border-width: 0.5px; /* Thinner border */
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Lighter shadow */
     }
             .section-title h2 {
                 font-size: 28px;
@@ -1320,6 +1324,14 @@
             padding: 6px;
         }
         }
+        @media (max-width: 400px) {
+    .hero-slides {
+        height: 280px; /* Compact but still visible */
+    }
+    .hero-slide img {
+        border-radius: 8px; /* Minimal radius */
+    }
+}
     </style>
 </head>
 <body>
